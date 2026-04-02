@@ -1,0 +1,38 @@
+export const rooms = [
+  {
+    id: 1,
+    slug: 'celadon-standard',
+    name: 'Celadon Standard Room',
+    description: 'The Celadon room features a king size bed, a study table, and an almirah to store your belongings. The attached bathroom has hot and cold running water, as well as a shower. The common area includes a living room and a dining space, perfect for unwinding with a book or enjoying a meal.',
+    image: '/assets/images/rooms/room-1.jpg',
+    amenities: ['Wifi', 'AC', 'Kettle', 'Hanger', 'Desk', 'Shower'],
+    airbnbLink: 'https://www.airbnb.co.in/rooms/888009099706365853',
+  },
+  {
+    id: 2,
+    slug: 'shino-queen',
+    name: 'Shino Queen Room',
+    description: "The Shino Room is tastefully decorated to provide a comfortable and relaxing stay. You'll find a comfortable queen-size bed and modern amenities such as air conditioning, heating, and high-speed Wi-Fi. The room also features a study table, almirah, and a separate entrance. It has a spacious attached bathroom with a shower and round-the-clock access to hot and cold water.",
+    image: '/assets/images/rooms/room-2.jpg',
+    amenities: ['Wifi', 'AC', 'Kettle', 'Hanger', 'Desk', 'Shower'],
+    airbnbLink: 'https://www.airbnb.co.in/rooms/886050258541744618',
+  },
+  {
+    id: 3,
+    slug: 'tenmoku-deluxe',
+    name: 'Tenmoku Deluxe Room',
+    description: 'Escape to the aesthetically done Tenmoku Room offering a rustic charm and modern comforts. Crafted with earth bags, wood, and slate, this ground-floor haven features a king-sized bed with an 8-inch mattress, a study area, almirah, and hot/cold AC. An additional sofa-cum-bed accommodates an extra person.',
+    image: '/assets/images/rooms/room-3.jpg',
+    amenities: ['Wifi', 'AC', 'Kettle', 'Hanger', 'Desk', 'Shower'],
+    airbnbLink: 'https://www.airbnb.co.in/rooms/889491623921098266',
+  },
+  {
+    id: 4,
+    slug: 'farm-cottages',
+    name: 'Farm Cottages',
+    description: 'Indulge in the serenity of our three meticulously designed ground-level bedrooms. Built in the local Himachali traditional vernacular architecture using earth bag construction style, while bringing in all modern amenities like heating and air-conditioning, modern bathrooms, comfortable beds & hardwood furniture.',
+    image: '/assets/images/rooms/room-4.jpg',
+    amenities: ['Wifi', 'AC', 'Kettle', 'Hanger', 'Desk', 'Shower'],
+    airbnbLink: 'https://www.airbnb.co.in/rooms/48947262',
+  },
+]

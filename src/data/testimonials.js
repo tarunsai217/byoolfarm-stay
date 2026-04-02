@@ -1,0 +1,51 @@
+export const testimonials = [
+  {
+    id: 1,
+    name: 'Divyan Aggarwal',
+    rating: 'EXCELLENT',
+    stars: 5,
+    text: "Stayed here for a week in October 2023. This place is a quaint, quiet and homely getaway far from the hustle and bustle of mainstream Dharamshala. The rooms are cozy and very well designed. The common/seating areas outdoors have good views of the mountain ranges nearby. There is plenty of sun and fresh air to be soaked in. Lakhan, the owner, is super friendly. Swapna, the lady in charge, is super friendly and hospitable. Saroj, the cook, is a super-chef. Absolutely loved each and every meal. All in all, I arrived as stranger, and left with a set of new friends and memories. Immense thank you to Lakhan, Swapna and team. Till the next time :)",
+  },
+  {
+    id: 2,
+    name: 'Tinni Arora',
+    rating: 'COMFORTABLE AND RELAXING',
+    stars: 5,
+    text: 'The best place to be in Himachal. Amazing and warm people, delicious food, homegrown veges, beautiful rooms, pottery for recreational activities and gorgeous animals. embedded with love for nature!!! 😊',
+  },
+  {
+    id: 3,
+    name: 'Manasi Ahuja',
+    rating: 'AMAZING',
+    stars: 5,
+    text: 'My husband and I had a wonderful week long stay with the family in this gorgeous farmstay. Lakhan, Swapna and the team there really made us feel at home. The food was home cooked and just what we needed. The views, the ambience of the property and our room "tenmoku" made our stay really memorable. We will be back!',
+  },
+  {
+    id: 4,
+    name: 'Shraddha Sanchit',
+    rating: 'COMFORTABLE AND RELAXING',
+    stars: 5,
+    text: 'The location is magnificent! Amazing hospitality! Perfect holiday destination!',
+  },
+  {
+    id: 5,
+    name: 'Rana Jyoti',
+    rating: 'EXCELLENT',
+    stars: 5,
+    text: 'Oh god! This place was so lovely, I stayed here for a week, plan to re-visit soon. The farm grown food was delicious, and moreover, the place is sooo cozy, I felt just at home. During my stay, I enrolled myself in a pottery course with them as well- What an experience. Swapna, Lakhan and other members were extremly friendly- I explored many interesting spots in and around the farm! Must visit',
+  },
+  {
+    id: 6,
+    name: 'Narasimhan Iyengar',
+    rating: 'COMFORTABLE AND RELAXING',
+    stars: 5,
+    text: 'Awesome stay in a serene atmosphere, overlooking the mountains clad in snow. chill, away from the concrete jungle of the metros and get into a poet\'s frame of mind. Waav!!!',
+  },
+  {
+    id: 7,
+    name: 'Gulzar Harrison',
+    rating: 'AMAZING',
+    stars: 5,
+    text: 'Brilliant farm-stay away from the city. Great escape from the city.',
+  },
+]

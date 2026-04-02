@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-body font-body;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .btn-gold {
+    @apply inline-block bg-gold text-white font-body font-medium tracking-[0.2em] text-[14px] uppercase px-10 py-4 border border-gold hover:bg-transparent hover:text-gold transition-all duration-300;
+  }
+
+  .btn-black {
+    @apply inline-block bg-[#000] text-white font-body font-medium tracking-[0.1em] text-[14px] uppercase px-10 py-4 hover:bg-gold hover:text-white transition-all duration-300;
+  }
+
+  .btn-dark {
+    @apply inline-block bg-transparent text-dark font-body font-medium tracking-[0.2em] text-[14px] uppercase px-10 py-4 border border-dark hover:bg-dark hover:text-white transition-all duration-300;
+  }
+
+  .btn-gold-outline {
+    @apply inline-block bg-transparent text-gold font-body font-medium tracking-[0.2em] text-[14px] uppercase px-10 py-4 border border-gold hover:bg-gold hover:text-white transition-all duration-300;
+  }
+
+  .btn-white {
+    @apply inline-block bg-transparent text-white font-body font-medium tracking-[0.2em] text-[14px] uppercase px-10 py-4 border border-white/60 hover:border-gold hover:text-gold transition-all duration-300;
+  }
+
+  .eyebrow {
+    @apply font-body text-gold text-xs tracking-[0.35em] uppercase font-medium;
+  }
+}
+
+/* Hero */
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 1.2s ease-in-out;
+}
+
+.hero-slide.active {
+  opacity: 1;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px)
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0)
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.25s ease forwards;
+}
+
+/* Masonry */
+.masonry-grid {
+  columns: 2;
+  column-gap: 8px;
+}
+
+@media(min-width:640px) {
+  .masonry-grid {
+    columns: 3;
+  }
+}
+
+@media(min-width:1024px) {
+  .masonry-grid {
+    columns: 4;
+  }
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Lightbox */
+.lightbox-overlay {
+  animation: fadeIn 0.2s ease;
+}
+
+/* Image zoom */
+.img-zoom {
+  overflow: hidden;
+}
+
+.img-zoom img {
+  transition: transform 0.7s ease;
+}
+
+.img-zoom:hover img {
+  transform: scale(1.05);
+}

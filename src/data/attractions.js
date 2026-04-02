@@ -1,0 +1,98 @@
+export const attractions = [
+  {
+    id: 1,
+    name: 'Triund Hill',
+    image: '/assets/images/gallery/gallery-14.jpg',
+    description: 'Triund Hill is one of the most beautiful places to visit in Dharamshala and one of the more popular tourist destinations in the area. It is surrounded by the Dhauladhar ranges on one side and rolling valleys on the other and is the perfect place to go trekking or even to enjoy a picnic with breath-taking views for you to enjoy.',
+  },
+  {
+    id: 2,
+    name: 'Dharamshala Cricket Stadium',
+    image: '/assets/images/gallery/gallery-15.jpg',
+    description: "Boasting as one of the best Dharamshala tourist places, Dharamshala Cricket Stadium invites revelers from both near and far. This picturesque stadium is snuggled amidst the greens of the Himalayan range, and its lure is beyond one's imagination.",
+  },
+  {
+    id: 3,
+    name: 'Library of Tibetan Works and Archives',
+    image: '/assets/images/gallery/gallery-16.jpg',
+    description: 'The Library of the Tibetan Works and Archives is one of the most illuminating tourist places in Dharamshala which is home to some of the most important Tibetan literature in existence. Most of the salvaged manuscripts from the great exile of 1959 are preserved in the library.',
+  },
+  {
+    id: 4,
+    name: 'St John in the Wilderness Church',
+    image: '/assets/images/gallery/gallery-17.jpg',
+    description: 'Yet another destination in the list of places to visit in Dharamshala is St John in the Wilderness church, which is tucked amidst the lush green trails of deodar. The church exhibits the age-old architectural style of Gothics and owns a remarkable feature which is the Belgian stain glassed windows. This place is just apt if you are looking for a quiet place, where one can delve in a session of rediscoveries.',
+  },
+  {
+    id: 5,
+    name: 'The War Memorial',
+    image: '/assets/images/gallery/gallery-18.jpg',
+    description: 'Let your patriotic side come in action at the War Memorial! Witness the war tanks and also read out loud the names of valiant soldiers who fought for the fame of the land. This memorial is located right at the entrance of the region and is the key attraction. From here you can also wander in the dense pine forest of the quarter, as it has hidden routes to them.',
+  },
+  {
+    id: 6,
+    name: 'Gyuto Monastery',
+    image: '/assets/images/gallery/gallery-19.jpg',
+    description: 'Gyuto Monastery is one of the most famous and popular monasteries in Tibet. This monastery is well known for its tantric meditation and people there study a lot about this subject. It is also known for its various tantric ritual arts and Buddhist philosophy. Gyuto monastery was founded in the year 1474 by the prime disciple of the 1st Dalai Lama.',
+  },
+  {
+    id: 7,
+    name: 'Dal Lake',
+    image: '/assets/images/gallery/gallery-20.jpg',
+    description: 'One of the most scenic places Dharamshala tourist places is the Dal Lake that is in Kangra. It is a pristine body of water that is fringed with coniferous deodar trees. It is also a stunning viewpoint as one can see the surrounding mountains from the banks of the lake, where tourists are allowed to conduct picnics and take photographs.',
+  },
+  {
+    id: 8,
+    name: 'Tea Gardens',
+    image: '/assets/images/gallery/gallery-21.jpg',
+    description: 'Of all the places to Visit in Dharamshala, touring the tea garden is an inescapable part. Imagine strolling through the lush green tea estates, which are packed with the soothing aroma of fresh tea leaves! Well, in the Kangra valley you can witness this haven.',
+  },
+  {
+    id: 9,
+    name: 'Tsuglag Khang',
+    image: '/assets/images/gallery/gallery-22.jpg',
+    description: 'This is one of the temples which are the main focus of visiting pilgrims, monks and a lot of tourists. Tsulag Khang is loved by people owing to its beautiful aura and natural surroundings.',
+  },
+  {
+    id: 10,
+    name: 'Namgyal Monastery',
+    image: '/assets/images/gallery/gallery-23.jpg',
+    description: 'The Namgyal Monastery is the largest Tibetan Temple that is located outside of the country of Tibet. However, more importantly, this is the home of the great Dalai Lama and over 200 monks practising Buddhism in its purest form.',
+  },
+  {
+    id: 11,
+    name: 'Bhagsu Waterfall',
+    image: '/assets/images/gallery/gallery-24.jpg',
+    description: 'The Bhagsu Waterfall is one of the best places to visit in Dharamshala because of its incredible serenity and scenic beauty. The waterfall together with the surrounding foliage makes for a great trek for hikers and rock climbers and is also a stunning place for tourists to come and enjoy the view.',
+  },
+  {
+    id: 12,
+    name: 'Bhagsunath Temple',
+    image: '/assets/images/gallery/gallery-25.jpg',
+    description: 'Bhagsunath Temple is located in the village of Bhagsu which is now a tourist place given its attractions. Most of the people here are into tourism and make a living out of it. Due to this, the village has a lot of restaurants and guesthouses which earns a lot of money for the village.',
+  },
+  {
+    id: 13,
+    name: 'Kangra Valley',
+    image: '/assets/images/gallery/gallery-26.jpg',
+    description: 'Famous Kangra Valley is home to the famous Masrur temple and is situated in the western Himalayas in Punjab. It is the best place to visit in Dharamshala and it is a strong contender for the UNESCO World Heritage Site which is a huge appreciation to the place and its beauty. The people in this area speak Kangri, which is a regional dialect of the place.',
+  },
+  {
+    id: 14,
+    name: 'McLeod Ganj',
+    image: '/assets/images/gallery/gallery-27.jpg',
+    description: 'McLeod Ganj is a suburb in the state of Himachal Pradesh. It is also popularly known as "Little Lhasa" or "Dhasa". The city has got this name due to the large populations of Tibetans. Also, the famous Tibetan government-in-exile has its headquarters in this city. Without any doubt, McLeodganj is the best place to visit near Dharamshala.',
+  },
+  {
+    id: 15,
+    name: 'Dharamkot',
+    image: '/assets/images/gallery/gallery-28.jpg',
+    description: 'Dharamkot is a place for all the hill station lovers. It is a small hill station located in the Kangra district just above McLeod Ganj. The elevation of the hill station is around 2827m. One of the most interesting things about the place is that many foreigners have started living in the area because they liked it so much.',
+  },
+  {
+    id: 16,
+    name: 'Indrahar Pass',
+    image: '/assets/images/gallery/gallery-29.jpg',
+    description: 'Due to its proximity to the beautiful city of Dharamshala and the gorgeous view that greets visitors who make it to the summit, Indrahar Pass is one of the more popular trails for trekking in Himachal Pradesh. It is a point in the Dhauladhar Range located at an altitude of approximately 4,500 feet above sea level and is a charming adventure for people from all over the world.',
+  },
+]
